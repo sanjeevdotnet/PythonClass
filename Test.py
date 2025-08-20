@@ -1,7 +1,3 @@
-age=int(input('Enter your age: '))
+x=[i ** 2 for i in range(1,11) if i ** 2 %2==0]
 
-if age>=18:
-    print('You are eligible to vote')
-else:
-    print('You are not eligibal')
-
+print(x)
